@@ -10,7 +10,7 @@
     "MATTERMOST_DOWNLOAD_URI": {
         "description": "The URI to the compiled Mattermost binary you would like to run. Defaults to latest release. See https://www.mattermost.org/download/ for download links.",
         "required": true,
-        "value": "https://releases.mattermost.com/5.26.0/mattermost-5.26.0-linux-amd64.tar.gz"
+        "value": "https://thuongpham.s3-ap-southeast-1.amazonaws.com/mattermost-team-linux-amd64.tar.gz"
     },
     "FILE_SETTINGS__DRIVER_NAME": {
         "description": "The type of file storage to use. Must be local or amazons3. WARNING: If local, files will be periodically wiped when the dyno restarts. Only use local for temporary preview instances.",
@@ -34,7 +34,7 @@
     "FILE_SETTINGS__AMAZON_S3_REGION": {
         "description": "The AWS region you selected when creating your S3 bucket. Refer to AWS Reference Documentation (http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) and choose this variable from the Region column.",
         "required": false,
-        "value": "us-east-1"
+        "value": "ap-southeast-1"
     }
   }
 }
