@@ -303,8 +303,8 @@
         "EnableDaily": false
     },
     "LocalizationSettings": {
-        "DefaultServerLocale": "en",
-        "DefaultClientLocale": "en",
+        "DefaultServerLocale": "vi",
+        "DefaultClientLocale": "vi",
         "AvailableLocales": ""
     },
     "SamlSettings": {
