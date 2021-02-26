@@ -157,7 +157,7 @@
   },
   "LogSettings": {
     "EnableConsole": true,
-    "ConsoleLevel": "INFO",
+    "ConsoleLevel": "DEBUG",
     "ConsoleJson": true,
     "EnableFile": true,
     "FileLevel": "INFO",
