@@ -30,6 +30,6 @@ export SESSION_LENGTH__WEB=${SESSION_LENGTH__WEB:=30}
 export SESSION_LENGTH__MOBILE=${SESSION_LENGTH__MOBILE:=30}
 export SESSION_LENGTH__SSO=${SESSION_LENGTH__SSO:=30}
 
-lib/envsubst < config/config-heroku-template.json > config/config-heroku.json
+lib/envsubst < config/config-heroku-template-530.json > config/config-heroku.json
 
 bin/mattermost --config=config/config-heroku.json
