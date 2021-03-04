@@ -45,6 +45,41 @@
         "description": "enter link to push notification server if you turn push notification on.",
         "required": false,
         "value": ""
+    },
+    "EMAIL_SETTINGS__SEND_EMAIL_NOTIFICATIONS": {
+        "description": "turn on/off send mail notifications.",
+        "required": false,
+        "value": false
+    },
+    "EMAIL_SETTINGS__SMTP_SERVER": {
+        "description": "smtp mail server.",
+        "required": false,
+        "value": ""
+    },
+    "EMAIL_SETTINGS__SMTP_PORT": {
+        "description": "smtp port.",
+        "required": false,
+        "value": ""
+    },
+    "EMAIL_SETTINGS__CONNECTION_SECURITY": {
+        "description": "connection security. Example: TLS",
+        "required": false,
+        "value": ""
+    },
+    "EMAIL_SETTINGS__SMTP_AUTH_ENABLED": {
+        "description": "smtp auth enable: true or false",
+        "required": false,
+        "value": true
+    },
+    "EMAIL_SETTINGS__SMTP_USERNAME": {
+        "description": "smtp username",
+        "required": false,
+        "value": ""
+    },
+    "EMAIL_SETTINGS__SMTP_PASSWORD": {
+        "description": "smtp password",
+        "required": false,
+        "value": ""
     }
   }
 }
