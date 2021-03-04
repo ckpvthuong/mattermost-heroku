@@ -35,6 +35,16 @@
         "description": "The AWS region you selected when creating your S3 bucket. Refer to AWS Reference Documentation (http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) and choose this variable from the Region column.",
         "required": false,
         "value": "ap-southeast-1"
+    },
+    "EMAIL_SETTINGS__SEND_PUSH_NOTIFICATIONS":{
+        "description": "turn push notification on/off.",
+        "required": false,
+        "value": true
+    },
+    "EMAIL_SETTINGS__PUSH_NOTIFICATION_SERVER": {
+        "description": "enter link to push notification server if you turn push notification on.",
+        "required": false,
+        "value": ""
     }
   }
 }
