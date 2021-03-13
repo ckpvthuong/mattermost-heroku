@@ -80,6 +80,11 @@
         "description": "smtp password",
         "required": false,
         "value": ""
+    },
+    "EMAIL_SETTINGS__REQUIRE_EMAIL_VERIFICATION": {
+        "description": "require email verification",
+        "required": false,
+        "value": false
     }
   }
 }
